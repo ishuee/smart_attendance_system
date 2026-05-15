@@ -1,31 +1,8 @@
-# Node modules
 node_modules/
-
-# Environment variables
+frontend/node_modules/
+backend/node_modules/
 .env
-
-# Logs
-logs/
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-
-# Build
-dist/
+frontend/.env
+backend/.env
 build/
-
-# Coverage
-coverage/
-
-# Temp
-tmp/
-temp/
-
-# Ignore only dumps, NOT schema
-*.dump
+frontend/build/
